@@ -1,22 +1,35 @@
 {
-  "name": "node-education",
-  "version": "1.0.0",
-  "description": "nodejs",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+ssh://git@github.com/BAHOHCEHC/nodejs.git"
-  },
-  "keywords": [
-    "nodejs"
-  ],
-  "author": "BAHOHCEHC",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/BAHOHCEHC/nodejs/issues"
-  },
-  "homepage": "https://github.com/BAHOHCEHC/nodejs#readme"
+	"name": "node-education",
+	"version": "1.0.0",
+	"description": "nodejs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index",
+		"dev": "nodemon index"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@github.com/BAHOHCEHC/nodejs.git"
+	},
+	"keywords": [
+		"nodejs"
+	],
+	"author": "BAHOHCEHC",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/BAHOHCEHC/nodejs/issues"
+	},
+	"homepage": "https://github.com/BAHOHCEHC/nodejs#readme",
+	"dependencies": {
+		"@handlebars/allow-prototype-access": "^1.0.3",
+		"express": "^4.17.1",
+		"express-handlebars": "^3.1.0",
+		"handlebars": "4.5.3",
+		"mongoose": "^5.9.5"
+	},
+	"devDependencies": {
+		"nodemon": "^2.0.2",
+		"prettier": "1.19.1"
+	}
 }
